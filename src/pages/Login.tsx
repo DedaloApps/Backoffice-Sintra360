@@ -10,7 +10,7 @@ export default function Login() {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (email === 'admin' && password === 'admin') {
+    if (email === 'admin' && password === 'adminsintra360') {
       navigate('/dashboard');
     } else {
       alert('Credenciais inválidas');
