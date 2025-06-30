@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaUsers, FaExclamationTriangle, FaLightbulb, FaCalendarAlt } from 'react-icons/fa';
 import { db } from '../firebase';
