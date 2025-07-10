@@ -17,16 +17,6 @@ type ParticipanteFirebase = {
   origem: "Firebase"
 }
 
-type ParticipanteSupabase = {
-  id: string
-  nome: string
-  email: string
-  telefone?: string
-  morada?: string
-  created_at: string
-  origem: "Supabase"
-}
-
 type Participante = {
   id: string
   nome: string
